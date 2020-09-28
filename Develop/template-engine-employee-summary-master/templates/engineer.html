@@ -1,17 +1,22 @@
-<div class="col-md-4">
-    <div class="card bg-primary border-light shadow mb-3" style="max-width: 18rem; height: 22rem;">
-        <div class="card-header text-white">
-            <h2 id="name">Name</h2>
-            <h3><span class="fas fa-bolt"></span> Engineer</h3>
+
+<div class="card m-3 col-3 p-0" style="width: 18rem;">
+    <div class="card-body m-0 p-0">
+        <div class="bg-primary m-0 p-2 text-light">
+            <h5 class="card-title">{{ name }}</h5>
+            <h5 class="card-subtitle mb-2"><i class="fas fa-glasses"></i> Engineer</h5>
         </div>
-        <div class="card-body bg-light align-content-center flex-wrap">
-            <div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item" id="id">ID </li>
-                    <li class="list-group-item" id="email">Email </li>
-                    <li class="list-group-item" id="property">Property </li>
-                </ul>
-            </div>
+        <div class="p-3 bg-light">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    ID : {{ id }}
+                </li>
+                <li class="list-group-item">
+                    Email : <a href="{{ email }}">{{ email }}</a>
+                </li>
+                <li class="list-group-item">
+                    Github : <a href="{{ github }}">{{ github }}</a>
+                </li>
+            </ul>
         </div>
     </div>
 </div>
