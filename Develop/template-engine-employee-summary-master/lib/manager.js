@@ -1,16 +1,20 @@
-const Employee = require("./employee");
+const Employee = require("./Employee");
 
 class Manager extends Employee {
-    constructor (name, id, email, officeNumber) {
-        super (name, id, email);
-        this.officeNumber = officeNumber;
+  
+  constructor(name, id, email, officeNumber) {
+    if (
+      typeof officeNumber !== "number" ||
+      isNaN(officeNumber) ||
+      officeNumber < 0
+    ) {
+      throw new Error(
+        "Expected parameter 'officeNumber' to be a non-negative number"
+      );
     }
-    getOfficeNumber() {
-        return this.officeNumber;
-    }
-    getRole() {
-        return 'Manager';
-    }
+    super(name, id, email);
+    this.officeNumber = officeNumber;
+  }
 }
 
 module.exports = Manager;
