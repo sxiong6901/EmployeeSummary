@@ -1,16 +1,14 @@
-const Employee = require("./employee");
+const Employee = require("./Employee");
 
 class Engineer extends Employee {
-    constructor (name, id, email, github) {
-        super (name, id, email);
-        this.github = github;
+
+  constructor(name, id, email, github) {
+    if (!github || !github.trim().length) {
+      throw new Error("Expected parameter 'github' to be a non-empty string");
     }
-    getGithub() {
-        return this.github;
-    }
-    getRole() {
-        return 'Engineer';
-    }
+    super(name, id, email);
+    this.github = github;
+  }
 }
 
 module.exports = Engineer;
