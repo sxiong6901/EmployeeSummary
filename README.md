@@ -14,7 +14,7 @@ Managers will be asked for their Office number, Engineers will be prompt for the
   * [Title](#Title)
   * [Description](#Description)
   * [Installation](#Installation)
-  * [Usage] (#Usage)
+  * [Usage](#Usage)
   * [Contributors](#Contributors)
   * [Tests](#Test)
   * [Questions](#Questions)
