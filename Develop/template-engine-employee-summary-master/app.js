@@ -1,9 +1,9 @@
 const inquirer = require("inquirer");
 
-const render = require("./lib/HTMLrender");
+const render = require("./lib/html.js");
 
-const Manager = require("./lib/constructors/Manager");
-const Engineer = require("./lib/constructors/Engineer");
+const Manager = require("./lib/constructors/manager.js");
+const Engineer = require("./lib/constructors/engineer.js");
 
 const teamMembers = [];
 
