@@ -25,13 +25,13 @@ Managers will be asked for their Office number, Engineers will be prompt for the
   Run "npm install" in terminal. Then type in "node app.js". The application will prompt a series of questions. Once all employees has been entered, it will render information in the html called "roster.html". Click the "roster.html" and you will be able to see the input you had entered.
 
   ## Usage
-  ![Usage](https://github.com/sxiong6901/EmployeeSummary/blob/master/Assests/Test.gif)
+  ![Usage]()
   
   ## Contributors
   https://github.com/sxiong6901
 
   ## Test
-  ![Testing]
+  ![Testing](https://github.com/sxiong6901/EmployeeSummary/blob/master/Assests/Test.gif)
   
   ## Questions
   If you have any questions, contact sxiong6901 on GitHub.
