@@ -17,6 +17,11 @@ function managerPrompts() {
          },
          {
             type: "input",
+            message: "What is your employee's ID?",
+            name: "managerID"
+         },
+         {
+            type: "input",
             message: "What is your email address?",
             name: "managerEmail"
          },
@@ -30,9 +35,10 @@ function managerPrompts() {
          let managerName = response.managerName;
          let managerEmail = response.managerEmail;
          let managerOffice = response.managerOffice;
+         let managerID = response.managerID
          let manager = new Manager(
             managerName,
-            employeeID,
+            managerID,
             managerEmail,
             managerOffice
          );
@@ -65,6 +71,11 @@ function employeePrompts() {
          },
          {
             type: "input",
+            message: "What is the employee's ID?",
+            name: "employeeID"
+         },
+         {
+            type: "input",
             message: "What is the employee's email address?",
             name: "employeeEmail"
          }
@@ -73,6 +84,7 @@ function employeePrompts() {
          let employeeType = response.employeeType;
          let employeeName = response.employeeName;
          let employeeEmail = response.employeeEmail;
+         let employeeID = response.employeeID;
 
          if (employeeType === "Engineer") {
             inquirer
