@@ -31,7 +31,7 @@ Managers will be asked for their Office number, Engineers will be prompt for the
   https://github.com/sxiong6901
 
   ## Test
-  ![Testing](https://github.com/sxiong6901/EmployeeSummary/blob/master/Assests/Test.gif)
+  ![Testing](https://github.com/sxiong6901/EmployeeSummary/blob/master/Assests/Testing.gif)
   
   ## Questions
   If you have any questions, contact sxiong6901 on GitHub.
