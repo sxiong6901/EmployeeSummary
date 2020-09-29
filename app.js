@@ -44,7 +44,7 @@ function managerPrompts() {
          console.log(`
          ~~~~~~~~~~~~~~
 
-         Now we'll collect information from you about your employees
+         Please enter information about your team members. 
 
          ~~~~~~~~~~~~~~
          `);
@@ -151,7 +151,7 @@ function employeePrompts() {
                });
          }
       });
-   // console.log(employeeList);
+
 }
 
 function generatePage() {
@@ -206,6 +206,7 @@ function generatePage() {
    `;
 
    fs.writeFile("./output/roster.html", fullHTML, function(err) {
+      console.log ("Successfully rendered team members.")
       if (err) {
          return console.log(err);
       }
