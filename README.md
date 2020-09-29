@@ -15,10 +15,10 @@ This application is a software engineering team generator command line applicati
   ## Contributors
   https://github.com/sxiong6901
   ## Test
-  ![Testing](https://github.com/sxiong6901/GoodReadMeGenerator/blob/master/assets/Generating%20README.md%20File.gif)
+  ![Testing](https://github.com/sxiong6901/EmployeeSummary/blob/master/Assests/Test.gif)
   ## Questions
   If you have any questions, contact sxiong6901 on GitHub.
 
 ## Screenshot
 
-![Screenshot of the project](./project-screenshot.png)
+![Screenshot of the project](https://github.com/sxiong6901/EmployeeSummary/blob/master/Assests/Capture.JPG)
