@@ -42,11 +42,7 @@ function managerPrompts() {
          employeeID++;
 
          console.log(`
-         ~~~~~~~~~~~~~~
-
-         Please enter information about your team members. 
-
-         ~~~~~~~~~~~~~~
+         Please enter more information about your team members. 
          `);
 
          employeePrompts();
