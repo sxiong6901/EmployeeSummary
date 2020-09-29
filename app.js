@@ -205,7 +205,7 @@ function generatePage() {
 </html>
    `;
 
-   fs.writeFile("./output/roster.html", fullHTML, function(err) {
+   fs.writeFile("./roster.html", fullHTML, function(err) {
       console.log ("Successfully rendered team members.")
       if (err) {
          return console.log(err);

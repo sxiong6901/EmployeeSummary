@@ -10,7 +10,7 @@ This application is a software engineering team generator command line applicati
   * [Tests](#Test)
   * [Questions](#Questions)
   ## Installation
-  Run "npm install" in terminal. Then type in "node app.js". The application will prompt a series of questions. Once all employees has been entered, it will render the html in the "output" folder. Click the "roster.html" and you will be able to see the input you had entered.
+  Run "npm install" in terminal. Then type in "node app.js". The application will prompt a series of questions. Once all employees has been entered, it will render information in the html called "roster.html". Click the "roster.html" and you will be able to see the input you had entered.
 
   ## Contributors
   https://github.com/sxiong6901
